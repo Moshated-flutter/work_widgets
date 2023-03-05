@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:work_widgets/features/create_password/widget/bottom_sheet_widget.dart';
+import 'package:work_widgets/features/create_password/widget/bottom_sheet_content_widget.dart';
 
 class CreatePasswordScreen extends StatefulWidget {
   const CreatePasswordScreen();
@@ -63,7 +63,7 @@ class _CreateWidgetState extends State<CreatePasswordScreen> {
         clipBehavior: Clip.antiAliasWithSaveLayer,
         context: context,
         builder: (context) {
-          return BottomSheetContentwidget();
+          return BottomSheetContentWidget();
         });
   }
 }
